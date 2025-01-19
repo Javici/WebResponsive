@@ -1,12 +1,73 @@
-header{
-    background-color: #B62335;
-    margin: -10px;
+header {
+  background-color: #b62335;
+  margin: -10px;
+}
+body {
+  background-color: rgb(32, 32, 32);
 }
 
+#logo {
+  padding-left: 45%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.articulo {
+  display: grid;
+  gap: 20px;
+}
 
-#logo{
-    padding-left: 45%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+.articulo1 {
+  margin: 0px;
+  padding-top: 30px;
+  padding-left: 600px;
+  overflow: hidden;
+}
+
+#imagen {
+  width: 750px;
+}
+
+#imagen2 {
+  width: 250px;
+
+  overflow: hidden;
+  display: block;
+}
+
+#imagen3 {
+  width: 350px;
+}
+
+.articulo2 {
+  margin: 0px;
+  padding-top: 30px;
+  padding-left: 150px;
+  overflow: hidden;
+}
+@font-face {
+  font-family: fuente;
+  src: url("../Practica5/fonts/Araboto.ttf");
+}
+
+h2,
+h3 {
+  font-family: fuente;
+  color: white;
+}
+
+.footer {
+  width: 115%;
+}
+
+@media (max-width: 700px) {
+  .imagen {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .imagen {
+    width: 100%;
+  }
 }
