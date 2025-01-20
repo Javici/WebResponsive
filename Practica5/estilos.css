@@ -3,9 +3,7 @@ header {
   margin: -10px;
 }
 body {
-
   background: linear-gradient(to right, #b62335 0%, #66ff99 100%);
-
 }
 
 #logo {
@@ -14,12 +12,13 @@ body {
   padding-bottom: 10px;
   text-align: center;
 }
-#logo2{
+#logo2 {
   width: 100%;
 }
-#logo3{
+#logo3 {
   width: 100%;
 }
+
 .articulo {
   display: grid;
   gap: 20px;
@@ -32,23 +31,21 @@ body {
   padding-left: 15rem;
   padding-bottom: 3rem;
   clear: both;
-  
 }
-.foto1{
-width: 45%;
-float: left;
+.foto1 {
+  width: 45%;
+  float: left;
 }
-.texto1{
+.texto1 {
   padding-top: 8rem;
   margin-left: 5rem;
 
   width: 45%;
   float: right;
-
 }
 
 #imagen {
-  width: 750px;
+  width: 55rem;
 }
 
 #imagen2 {
@@ -67,18 +64,17 @@ float: left;
   padding-top: 30px;
   overflow: hidden;
 }
-#imagen3{
+#imagen3 {
   width: 100%;
 }
-.articulo3{
+.articulo3 {
   text-align: center;
 }
-#imagen4{
+#imagen4 {
   width: 43rem;
   height: 25rem;
-
 }
-.articulo4{
+.articulo4 {
   float: left;
   width: 35%;
   margin: 4rem;
@@ -97,7 +93,6 @@ h3 {
 
 .footer {
   width: 100%;
-
 }
 
 @media (max-width: 700px) {
@@ -108,12 +103,25 @@ h3 {
     text-align: center;
   }
   #imagen {
+    width: 27rem;
+  }
+  #imagen2 {
+    width: 10rem;
+    height: 6rem;
+  }
+  #imagen3 {
     width: 50%;
   }
 }
 
 @media (max-width: 400px) {
   #imagen {
-    width: 100%;
+    width: 27rem;
+  }
+  #imagen2 {
+    width: 50%;
+  }
+  #imagen3 {
+    width: 50%;
   }
 }
