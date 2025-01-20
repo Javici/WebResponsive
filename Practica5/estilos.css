@@ -3,14 +3,22 @@ header {
   margin: -10px;
 }
 body {
-  background-color: rgb(32, 32, 32);
+
+  background: linear-gradient(to right, #b62335 0%, #66ff99 100%);
+
 }
 
 #logo {
-  padding-left: 45%;
+  padding-left: 5rem;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+}
+#logo2{
+  width: 100%;
+}
+#logo3{
+  width: 100%;
 }
 .articulo {
   display: grid;
@@ -18,10 +26,25 @@ body {
 }
 
 .articulo1 {
+  float: left;
   margin: 0px;
-  padding-top: 30px;
-  padding-left: 600px;
-  overflow: hidden;
+  padding-top: 5rem;
+  padding-left: 15rem;
+  padding-bottom: 3rem;
+  clear: both;
+  
+}
+.foto1{
+width: 45%;
+float: left;
+}
+.texto1{
+  padding-top: 8rem;
+  margin-left: 5rem;
+
+  width: 45%;
+  float: right;
+
 }
 
 #imagen {
@@ -29,22 +52,38 @@ body {
 }
 
 #imagen2 {
-  width: 250px;
-
+  height: 12rem;
+  width: 20rem;
   overflow: hidden;
   display: block;
 }
 
-#imagen3 {
-  width: 350px;
-}
-
 .articulo2 {
-  margin: 0px;
+  float: left;
+  width: 18%;
+  margin-top: 3rem;
+  margin-left: 8rem;
+  margin-bottom: 3rem;
   padding-top: 30px;
-  padding-left: 150px;
   overflow: hidden;
 }
+#imagen3{
+  width: 100%;
+}
+.articulo3{
+  text-align: center;
+}
+#imagen4{
+  width: 43rem;
+  height: 25rem;
+
+}
+.articulo4{
+  float: left;
+  width: 35%;
+  margin: 4rem;
+}
+
 @font-face {
   font-family: fuente;
   src: url("../Practica5/fonts/Araboto.ttf");
@@ -57,17 +96,24 @@ h3 {
 }
 
 .footer {
-  width: 115%;
+  width: 100%;
+
 }
 
 @media (max-width: 700px) {
-  .imagen {
+  #logo {
+    padding-left: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  #imagen {
     width: 50%;
   }
 }
 
 @media (max-width: 400px) {
-  .imagen {
+  #imagen {
     width: 100%;
   }
 }
