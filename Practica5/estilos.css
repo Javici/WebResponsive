@@ -45,6 +45,8 @@ body {
 
 #imagen {
   width: 55rem;
+  border-radius: 5%;
+  border: 2px solid #000;
 }
 
 #imagen2 {
@@ -52,19 +54,22 @@ body {
   width: 20rem;
   overflow: hidden;
   display: block;
+  border-radius: 10%;
+  border: 2px solid #000;
 }
 
 .articulo2 {
   float: left;
   width: 18%;
   margin-top: 3rem;
-  margin-left: 8rem;
+  margin-left: 7rem;
   margin-bottom: 3rem;
   padding-top: 30px;
   overflow: hidden;
 }
 #imagen3 {
   width: 100%;
+  border: 2px solid #000;
 }
 .articulo3 {
   text-align: center;
@@ -72,12 +77,15 @@ body {
 #imagen4 {
   width: 43rem;
   height: 25rem;
+  border-radius: 8%;
+  border: 2px solid #000;
 }
 .articulo4 {
   float: left;
   width: 30%;
   margin: 4rem;
-  padding-left: 5rem;
+  padding-left: 7rem;
+
 }
 
 @font-face {
@@ -122,6 +130,7 @@ h3 {
     padding: 1rem;
     margin: 0;
     width: 35%;
+    padding-left: 5rem;
   }
   
   #imagen3 {
@@ -162,6 +171,7 @@ h3 {
     padding: 1rem;
     margin: 0;
     width: 35%;
+    padding-left: 3rem;
   }
   
   #imagen3 {
